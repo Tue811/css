@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<style>
+	*{
+		font-family: roboto; 
+	}
+
+	body{
+		background-image: url(https://img.freepik.com/premium-photo/abstract-background-scene-product-display-3d-rendering_85046-499.jpg?w=1060);
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+	}
+
+	#header{
+		max-width: 100%;
+/*		display: flex;
+		justify-content: space-between;*/
+	}
+
+/*	.header__left{
+		width: 60%;
+		font-size: 20px;
+		font-weight: bolder;
+		margin: 0 5%;
+	}*/
+	.header__right:before {
+		content: "VNCERT/CC";
+/*		float: left;*/
+		font-size: 30px;
+		font-weight: bolder;
+	}
+	.header__right{
+		width: 100%;
+	}
+	.header__right button{
+		float: right;
+		font-size: 16px;
+		overflow: none;
+		border: none;
+		background-color: transparent;
+		margin: 0 3%;
+		border: none;
+		background-color: none;
+/*		margin: 0 10%;*/
+	}
+
+	.header__right button:hover{
+/*		color: white;*/
+		background-color: white;
+	}
+
+	#body{
+		display: flex;
+
+	}
+
+	.nav__bar{
+		width: 20%;
+	}
+
+	.nav__bar ul li{
+		list-style-type: none;
+	}
+
+	.nav__bar ul li a{
+		text-decoration: none;
+		color: black;
+		line-height: 30px;
+	}
+
+	.nav__bar ul li a:hover {
+		color: white;
+	}
+
+	.content{
+		width: 70%;
+		display: flex;
+		/*justify-content: space-between;*/
+		flex-wrap: wrap;
+	}
+
+	.content__card{
+		position: relative;
+		width: 20%;
+		border: solid;
+		background-color: #ccc;
+		border-color: #ccc;
+		border-radius: 10px;
+		margin: 2%;
+    	padding: 0 1%;
+	}
+
+	.content__card:hover{
+/*		box-shadow: 5px 5px 15px 10px rgba(105, 105, 105, 0.4);*/
+		width: 21%;
+		background-color: #454444;
+		color: white;
+		border: none;
+	}
+
+	.content__card img{
+		width: 100%;
+		
+	}
+
+	.content__card div{
+		position: absolute;
+		bottom: 0;
+		background-color: rgba(0, 0, 0, 0.4);
+		width: 91%;
+		font-size: 14px;
+
+	}
+
+	#footer{
+		display: flex;
+		margin-bottom: 0;
+		justify-content: start;
+	}
+
+	#footer:before{
+		content: "Copyright @ 2022 VNCERT/CC";
+		margin: 16px 2%;
+	}
+
+	#footer ul {
+		display: flex;
+		list-style-type: none;
+    	justify-content: space-between;
+	}
+
+	#footer li a{
+		/*width: 10%;*/
+		text-decoration: none;
+		color: black;
+		display: inline-block;
+		margin: 0 20px;
+	}
+	.footer-list {
+		display: flex;
+		justify-content: space-evenly;
+
+	}
+
+	#footer li a:hover{
+		color: white;
+	}
+
+</style>
+<body>
+	<div id="header">
+<!-- 		<div class="header__left">
+			VNCERT/CC
+		</div> -->
+		<div class="header__right">
+			<button type="button">About</button>
+			<button type="button">Sign Up</button>
+			<button type="button">Sign In</button>
+		</div>
+	</div>
+	<div id="body">
+		<div class="nav__bar">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Tab Gallery</a></li>
+				<li><a href="">Create Tab</a></li>
+				<li><a href="">Favorites</a></li>
+				<li><a href="">Tech News</a></li>
+				<li><a href="">Travel</a></li>
+				<li><a href="">Photography</a></li>
+				<li><a href="">Finance World</a></li>
+				<li><a href="">Movies</a></li>
+				<li><a href="">Cooking</a></li>
+				<li><a href="">Fashion</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="content__card">
+				<p style="font-weight: bolder;">Tech News</p>
+				<img src="https://i.pinimg.com/originals/09/e2/22/09e222796a3eb5be00e1da1ac8640b02.jpg" alt="ảnh">
+				<div>ZentPhone by Zent Group</div>
+			</div>
+			<div class="content__card">
+				<p style="font-weight: bolder;">Tech News</p>
+				<img src="https://i.pinimg.com/originals/09/e2/22/09e222796a3eb5be00e1da1ac8640b02.jpg" alt="ảnh">
+				<div>ZentPhone by Zent Group</div>
+			</div>
+			<div class="content__card">
+				<p style="font-weight: bolder;">Tech News</p>
+				<img src="https://i.pinimg.com/originals/09/e2/22/09e222796a3eb5be00e1da1ac8640b02.jpg" alt="ảnh">
+				<div>ZentPhone by Zent Group</div>
+			</div>
+			<div class="content__card">
+				<p style="font-weight: bolder;">Tech News</p>
+				<img src="https://i.pinimg.com/originals/09/e2/22/09e222796a3eb5be00e1da1ac8640b02.jpg" alt="ảnh">
+				<div>ZentPhone by Zent Group</div>
+			</div>
+			<div class="content__card">
+				<p style="font-weight: bolder;">Tech News</p>
+				<img src="https://i.pinimg.com/originals/09/e2/22/09e222796a3eb5be00e1da1ac8640b02.jpg" alt="ảnh">
+				<div>ZentPhone by Zent Group</div>
+			</div>
+			<div class="content__card">
+				<p style="font-weight: bolder;">Tech News</p>
+				<img src="https://i.pinimg.com/originals/09/e2/22/09e222796a3eb5be00e1da1ac8640b02.jpg" alt="ảnh">
+				<div>ZentPhone by Zent Group</div>
+			</div>
+			<div class="content__card">
+				<p style="font-weight: bolder;">Tech News</p>
+				<img src="https://i.pinimg.com/originals/09/e2/22/09e222796a3eb5be00e1da1ac8640b02.jpg" alt="ảnh">
+				<div>ZentPhone by Zent Group</div>
+			</div>
+		</div>
+		
+	</div>
+</body>
+<div id="footer">
+		<ul class ="footer-list">
+		<li><a href="">About</a></li>
+		<li><a href="">FAQ</a></li>
+		<li><a href="">Blog</a></li>
+		<li><a href="">Mac App</a></li>
+		<li><a href="">iPad App</a></li>
+		<li><a href="">Tem of Use</a></li>
+		<li><a href="">Private Policy</a></li>
+		</ul>
+	</div>
+</html>
